@@ -37,7 +37,7 @@ hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 @media screen and (max-width: 480px) {
 	html,body{min-width:320px}
 	h1{font-size:2em}
-	#main{padding:0.5em 1.5em;width:105%}
+	#main{padding:0em 1em;width:105%}
 	article{font-size: 0.8em;}
 }
 @-webkit-keyframes Gradient {
