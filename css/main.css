@@ -6,9 +6,6 @@
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://fonts.googleapis.com/css?family=Imprima";
 html,body{margin:0;padding:0;border:0;font:100% inherit;vertical-align:baseline}
-@media screen and (max-width: 480px) {
-html,body{min-width:320px}
-}
 html{box-sizing:border-box}
 *,:before,:after{box-sizing:inherit}
 html,body{height:100%}
@@ -19,9 +16,6 @@ i{font-family:FontAwesome;font-style:inherit}
 p{font-size:1em}
 h1{color:#313f47;line-height:1.5;font-size:2.3em;margin:0 0 -1em}
 h1 a{color:inherit;text-decoration:none}
-@media screen and (max-width: 480px) {
-h1{font-size:1.7em}
-}
 hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #wrapper header {text-align:center;color:#fff;line-height:2;font-size:2.3em;margin:0 0 0.525em}
 #main{padding:3em 5em;background:#fff;border-radius:4px;opacity:.95;position:relative;text-align:justify;width:70%}
@@ -29,7 +23,7 @@ hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #main .avatar img{display:block;margin:0 auto;border-radius:100%;width:60%}
 #main article {white-space: pre-line;}
 @media screen and (max-width: 480px) {
-#main{padding:0.5em 1.5em;width:100%}
+
 }
 #footer{width:100%;padding:1.5em 0 0;color:#FFF;text-align:center}
 #footer .copyright{margin:0;padding:0;font-size:.9em;list-style:none}
@@ -40,6 +34,12 @@ hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #wrapper:before{content:'';display:block}
 .ahover:hover{opacity:.8}
 .autor{font-style:italic;text-align:right;line-height:0;}
+@media screen and (max-width: 480px) {
+	html,body{min-width:320px}
+	h1{font-size:2em}
+	#main{padding:0.5em 1.5em;width:100%}
+	article{font-size: 0.8em;}
+}
 @-webkit-keyframes Gradient {
 0%{background-position:0 50%}
 50%{background-position:100% 50%}
