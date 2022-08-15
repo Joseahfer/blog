@@ -22,9 +22,6 @@ hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #main .avatar{position:relative}
 #main .avatar img{display:block;margin:0 auto;border-radius:100%;width:60%}
 #main article {white-space: pre-line;}
-@media screen and (max-width: 480px) {
-
-}
 #footer{width:100%;padding:1.5em 0 0;color:#FFF;text-align:center}
 #footer .copyright{margin:0;padding:0;font-size:.9em;list-style:none}
 #footer .copyright li{display:inline-block;margin:0 0 0 .45em;padding:0 0 0 .85em;border-left:solid 1px #FFF;opacity: 0.75;line-height:1}
