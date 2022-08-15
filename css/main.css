@@ -1,0 +1,80 @@
+/*
+	Identity by HTML5 UP, edited by Joseahfer
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Imprima";
+html,body{margin:0;padding:0;border:0;font:100% inherit;vertical-align:baseline}
+@media screen and (max-width: 480px) {
+html,body{min-width:320px}
+}
+html{box-sizing:border-box}
+*,:before,:after{box-sizing:inherit}
+html,body{height:100%}
+body{color:#414f57;background:linear-gradient(-45deg,#000,#191919,#323232,#4c4c4c);background-size:400% 400%;-webkit-animation:Gradient 100s ease infinite;-moz-animation:Gradient 100s ease infinite;animation:Gradient 100s ease infinite;font:14pt 'Imprima',sans-serif}
+@media screen and (max-width: 1680px) {
+body{font-size:11pt}
+}
+@media screen and (max-width: 480px) {
+body{font-size:10pt;line-height:1.75}
+}
+a{color:inherit;text-decoration:none}
+a:active,a:focus{outline:none;-moz-outline-style:none;}
+i{font-family:FontAwesome;font-style:inherit}
+p{font-size:1em}
+h1{color:#313f47;line-height:1.5;font-size:2.3em;margin:0 0 -1em}
+h1 a{color:inherit;text-decoration:none}
+@media screen and (max-width: 480px) {
+h1{font-size:1.65em}
+}
+hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
+ol{list-style:decimal;margin:0 0 1.5em;padding-left:1.25em}
+ol li{padding-left:.25em}
+ul{list-style:disc;padding-left:1em}
+ul li{padding-left:.5em}
+ul.alt{list-style:none;padding-left:0}
+ul.alt li{border-top:solid 1px #c8cccf;padding:.5em 0}
+ul.alt li:first-child{border-top:0;padding-top:0}
+ul.icons{cursor:default;list-style:none;padding-left:0;margin-top:-.675em}
+ul.icons:nth-child(2){margin:-1.5em;}
+ul.icons li{display:inline-block;padding:.675em .5em}
+ul.icons li a{display:block;width:3.75em;height:3.75em;border-radius:100%;border:solid 1px #c8cccf;line-height:3.75em}
+ul.icons li a > i{font-size:1.9em}
+i.logomal{background-image:url(../images/anilist.png);background-size:100%;background-repeat:no-repeat;padding:27%;background-position:center;}
+ul.icons li a:hover{border-color:#000}
+@media screen and (max-width: 480px) {
+ul.icons li a:before{font-size:1.5rem}
+}
+#wrapper header {text-align:center;color:#fff;line-height:2;font-size:2.3em;margin:0 0 0.525em}
+#main{padding:3em 5em;background:#fff;border-radius:4px;opacity:.95;position:relative;text-align:justify;width:70%}
+#main .avatar{position:relative}
+#main .avatar img{display:block;margin:0 auto;border-radius:100%;width:60%}
+#main article {white-space: pre-line;}
+@media screen and (max-width: 480px) {
+#main{padding:4em 2em 2.5em;width:100%}
+}
+#footer{width:100%;padding:1.5em 0 0;color:#FFF;text-align:center}
+#footer .copyright{margin:0;padding:0;font-size:.9em;list-style:none}
+#footer .copyright li{display:inline-block;margin:0 0 0 .45em;padding:0 0 0 .85em;border-left:solid 1px #FFF;opacity: 0.75;line-height:1}
+#footer .copyright li:first-child{border-left:0}
+#wrapper{display:-moz-flex;display:-webkit-flex;display:-ms-flex;display:flex;-moz-align-items:center;-webkit-align-items:center;-ms-align-items:center;align-items:center;-moz-justify-content:space-between;-webkit-justify-content:space-between;-ms-justify-content:space-between;justify-content:space-between;-moz-flex-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-moz-perspective:1000px;-webkit-perspective:1000px;-ms-perspective:1000px;perspective:1000px;position:relative;min-height:100%;padding:1.5em;z-index:5}
+#wrapper > *{z-index:1}
+#wrapper:before{content:'';display:block}
+.ahover:hover{opacity:.8}
+.autor{font-style:italic;text-align:right;line-height:0;}
+@-webkit-keyframes Gradient {
+0%{background-position:0 50%}
+50%{background-position:100% 50%}
+100%{background-position:0 50%}
+}
+@-moz-keyframes Gradient {
+0%{background-position:0 50%}
+50%{background-position:100% 50%}
+100%{background-position:0 50%}
+}
+@keyframes Gradient {
+0%{background-position:0 50%}
+50%{background-position:100% 50%}
+100%{background-position:0 50%}
+}
