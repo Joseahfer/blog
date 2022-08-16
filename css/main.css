@@ -3,25 +3,35 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 @import "https://fonts.googleapis.com/css?family=Imprima";
-html,body{margin:0;padding:0;border:0;font:100% inherit;vertical-align:baseline}
-html{box-sizing:border-box}
-*,:before,:after{box-sizing:inherit}
-html,body{height:100%}
-body{color:#414f57;background:linear-gradient(-45deg,#000,#191919,#323232,#4c4c4c);background-size:400% 400%;-webkit-animation:Gradient 100s ease infinite;-moz-animation:Gradient 100s ease infinite;animation:Gradient 100s ease infinite;font:14pt 'Imprima',sans-serif}
+/* Modern CSS Reset https://piccalil.li/blog/a-modern-css-reset/ */
+*,*:before,*:after{box-sizing:border-box}
+body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}
+ul[role=list],ol[role=list]{list-style:none}
+html:focus-within{scroll-behavior:smooth}
+body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}
+img,picture{max-width:100%;display:block}
+input,button,textarea,select{font:inherit}
+@media (prefers-reduced-motion:reduce){
+	html:focus-within{scroll-behavior:auto}
+	*,*:before,*:after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}
+}
+/* Modern CSS Reset End */
+body{color:#414f57;background:linear-gradient(-45deg,#000,#191919,#323232,#4c4c4c);background-size:400% 400%;-webkit-animation:Gradient 100s ease infinite;-moz-animation:Gradient 100s ease infinite;animation:Gradient 100s ease infinite;font-family:"Imprima",sans-serif}
 a{color:inherit;text-decoration:none}
 a:active,a:focus{outline:none;-moz-outline-style:none;}
 i{font-family:FontAwesome;font-style:inherit}
-p{font-size:1em}
-h1{color:#313f47;line-height:1.5;font-size:2.3em;margin:0 0 -1em}
+h1{color:#313f47;font-size:2.3em}
 h1 a{color:inherit;text-decoration:none}
 hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #wrapper header {text-align:center;color:#fff;line-height:2;font-size:2.3em;margin:0 0 0.525em}
-#main{padding:3em 5em;background:#fff;border-radius:4px;opacity:.95;position:relative;text-align:justify;width:70%}
-#main .avatar{position:relative}
-#main .avatar img{display:block;margin:0 auto;border-radius:100%;width:60%}
-#main article {white-space: pre-line;}
+#main{background:#fff;border-radius:4px;opacity:.95;position:relative;text-align:center;max-width:950px}
+#main article {white-space: pre-line;padding:2em 3em;text-align:justify;}
+#main article p {font-size:1em}
+#main article p.fecha {font-size:0.85em;margin-top:-25px}
+#main article p.cita {text-align:right;max-width:540px;margin-left:auto;margin-right:0;}
+#main article.entrada {display:inline-block;max-width:315px;text-align:center;}
 #footer{width:100%;padding:1.5em 0 0;color:#FFF;text-align:center}
 #footer .copyright{margin:0;padding:0;font-size:.9em;list-style:none}
 #footer .copyright li{display:inline-block;margin:0 0 0 .45em;padding:0 0 0 .85em;border-left:solid 1px #FFF;opacity: 0.75;line-height:1}
@@ -31,30 +41,24 @@ hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #wrapper:before{content:'';display:block}
 .ahover:hover{opacity:.8}
 .autor{font-style:italic;text-align:right;line-height:0;}
-@media screen and (max-width: 750px) {
-	#main{width:95%}
-}
-@media screen and (max-width: 480px) {
-	html,body{min-width:320px}
-	h1{font-size:2em}
-	#main{padding:0em 1em;width:105%}
-	article{font-size: 0.8em;}
+@media screen and (max-width: 550px) {
+	#main article {white-space: pre-line;padding:1.5em;}
 }
 @media screen and (max-width: 400px) {
 	#wrapper header {font-size:2em}
 }
 @-webkit-keyframes Gradient {
-0%{background-position:0 50%}
-50%{background-position:100% 50%}
-100%{background-position:0 50%}
+	0%{background-position:0 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0 50%}
 }
 @-moz-keyframes Gradient {
-0%{background-position:0 50%}
-50%{background-position:100% 50%}
-100%{background-position:0 50%}
+	0%{background-position:0 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0 50%}
 }
 @keyframes Gradient {
-0%{background-position:0 50%}
-50%{background-position:100% 50%}
-100%{background-position:0 50%}
+	0%{background-position:0 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0 50%}
 }
