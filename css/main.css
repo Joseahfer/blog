@@ -27,8 +27,7 @@ h1 a{color:inherit;text-decoration:none}
 hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #wrapper header {text-align:center;color:#fff;line-height:2;font-size:2.3em;margin:0 0 0.525em}
 #main{background:#fff;border-radius:4px;opacity:.95;position:relative;text-align:center;max-width:950px}
-#main article {white-space: pre-line;padding:2em 3em;text-align:justify;}
-#main article p {font-size:1em}
+#main article {white-space: pre-line;padding:2em 3em;text-align:justify;font-size:1em}
 #main article p.fecha {font-size:0.85em;margin-top:-25px}
 #main article.entrada {display:inline-block;max-width:315px;text-align:center;}
 #main article figure {white-space:normal;max-width:540px;margin-left:auto;margin-right:0;}
