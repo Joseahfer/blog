@@ -31,11 +31,11 @@ hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #main article p {font-size:1em}
 #main article p.fecha {font-size:0.85em;margin-top:-25px}
 #main article.entrada {display:inline-block;max-width:315px;text-align:center;}
-#main article figure {text-align:right;max-width:540px;margin-left:auto;margin-right:0;}
+#main article figure {max-width:540px;margin-left:auto;margin-right:0;}
 #main article figure blockquote p {padding:15px;background:#eee;border-radius:5px;font-style:italic;}
 #main article figure blockquote p::before {content:'\00AB';}
 #main article figure blockquote p::after {content:'\00BB';}
-#main article figure figcaption {font-weight: bold;}
+#main article figure figcaption {text-align:right;font-weight: bold;}
 #footer{width:100%;padding:1.5em 0 0;color:#FFF;text-align:center}
 #footer .copyright{margin:0;padding:0;font-size:.9em;list-style:none}
 #footer .copyright li{display:inline-block;margin:0 0 0 .45em;padding:0 0 0 .85em;border-left:solid 1px #FFF;opacity: 0.75;line-height:1}
