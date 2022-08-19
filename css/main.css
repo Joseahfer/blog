@@ -31,7 +31,7 @@ hr{border:0;border-bottom:solid 1px #c8cccf;margin:3em 0}
 #main article p {font-size:1em}
 #main article p.fecha {font-size:0.85em;margin-top:-25px}
 #main article.entrada {display:inline-block;max-width:315px;text-align:center;}
-#main article figure {max-width:540px;margin-left:auto;margin-right:0;}
+#main article figure {white-space:normal;max-width:540px;margin-left:auto;margin-right:0;}
 #main article figure blockquote p {padding:15px;background:#eee;border-radius:5px;font-style:italic;}
 #main article figure blockquote p::before {content:'\00AB';}
 #main article figure blockquote p::after {content:'\00BB';}
